@@ -7,7 +7,7 @@
     - name: "yourpassword"  # Variable name to define
       prompt: "What is your password?" # Question to ask
       ## do not reveal the password (optional)
-      private: yes
+      private: no
       ## run this encryption method (optional)
       encrypt: "sha512_crypt"
       ## type the password twice (optional)
